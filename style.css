@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 35px;
+}
 .name-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,8 +27,8 @@ section{
    
     padding: 10px 40px;
     border-radius: 5px;
-    background-image: linear-gradient(orange, tomato);
-    color: wheat;
+    background-image: linear-gradient(rgb(238, 192, 106), tomato);
+    color: rgb(255, 255, 255);
     font-weight: 700;
 }
 .top-bannar{
@@ -38,4 +41,42 @@ section{
     background-position: right;
 }
 
+#experience{
+    text-align: center;
+}
 
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+
+#new-experience{
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+
+
+}
+
+#new-ex{
+    border-image: linear-gradient(salmon , tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+
+    
+}
+
+footer p{
+    text-align: center;
+}
